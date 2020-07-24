@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CleanArch.Infra.Data.Repository
 {
-    class CourseRepository : ICourseRepository
+    public class CourseRepository : ICourseRepository
     {
         private UniversityDbContext _universityDbContext;
 
