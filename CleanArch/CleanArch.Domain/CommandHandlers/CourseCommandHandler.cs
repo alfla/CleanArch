@@ -27,7 +27,7 @@ namespace CleanArch.Domain.CommandHandlers
                 ImagenUrl = request.ImageUrl
             };
             _courseRepository.Add(course);
-            throw new NotImplementedException();
+            return Task.FromResult(true);
         }
     }
 }
